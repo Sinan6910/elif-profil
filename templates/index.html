@@ -1,0 +1,184 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="anasayfa" class="bolum bg-light py-4">
+  <div class="container">
+    <div class="row align-items-center justify-content-center g-4 flex-lg-row flex-column-reverse">
+      <!-- Sol kutu: Başlık ve açıklama -->
+      <div class="col-lg-6 col-12">
+        <h1 class="fw-bold text-dark mb-3" style="font-size:2.3em;">Elif Profil Tokat - Demir Profil ve Sac Satışı</h1>
+        <div class="bg-white border-start border-4 border-warning rounded-3 shadow-sm p-3 mb-4">
+          <span class="fs-5 text-dark">
+            <b class="text-warning">DEMİR SAC PROFİL NPI NPU SATIŞIN DOĞRU ADRESİ</b>
+          </span>
+        </div>
+        <div class="d-flex gap-3 flex-wrap">
+          <a href="#urunler" class="btn btn-warning text-white fw-semibold px-4 py-2 d-flex align-items-center gap-2">
+            <span style="font-size:1.3em;">&#43;</span> Daha Fazlası
+          </a>
+          <a href="#iletisim" class="btn btn-outline-warning fw-semibold px-4 py-2 d-flex align-items-center gap-2">
+            <span style="font-size:1.3em;">&#128222;</span> Bize Ulaşın
+          </a>
+        </div>
+      </div>
+      <!-- Sağ kutu: Görsel -->
+      <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+        <img src="/static/anasayfa_resim.jpg" alt="Tokat Elif Profil Depo ve Ürünler" class="img-fluid rounded-4 shadow" style="max-width:480px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="urunler" class="bolum py-4">
+  <div class="container">
+    <h2 class="mb-4">Ürünlerimiz</h2>
+    <div class="bg-white border-start border-4 border-warning rounded-3 shadow-sm p-4 mb-4">
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/dikdortgen.jpg" class="card-img-top" alt="Tokat Elif Profil Kutu Profiller">
+            <div class="card-body">
+              <h5 class="card-title text-warning text-center text-uppercase fw-bold mb-0" style="font-size:1.1em; letter-spacing:1px;">Kutu Profiller</h5>
+              <div style="height:4px; background:#ffc107; width:90%; margin:8px auto 0 auto; border-radius:2px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/kare.jpg" class="card-img-top" alt="Tokat Elif Profil Kare Kutu Profiller">
+            <div class="card-body">
+              <h5 class="card-title text-warning text-center text-uppercase fw-bold mb-0" style="font-size:1.1em; letter-spacing:1px;">Kutu Profiller</h5>
+              <div style="height:4px; background:#ffc107; width:90%; margin:8px auto 0 auto; border-radius:2px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/resim1.jpg" class="card-img-top" alt="Tokat Elif Profil Boyalı Profiller">
+            <div class="card-body">
+              <h5 class="card-title text-warning text-center text-uppercase fw-bold mb-0" style="font-size:1.1em; letter-spacing:1px;">Boyalı Profiller</h5>
+              <div style="height:4px; background:#ffc107; width:90%; margin:8px auto 0 auto; border-radius:2px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/resim2.jpg" class="card-img-top" alt="Tokat Elif Profil Boyalı Profiller">
+            <div class="card-body">
+              <h5 class="card-title text-warning text-center text-uppercase fw-bold mb-0" style="font-size:1.1em; letter-spacing:1px;">Boyalı Profiller</h5>
+              <div style="height:4px; background:#ffc107; width:90%; margin:8px auto 0 auto; border-radius:2px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/resim3.jpg" class="card-img-top" alt="Tokat Elif Profil Boyalı Profiller">
+            <div class="card-body">
+              <h5 class="card-title text-warning text-center text-uppercase fw-bold mb-0" style="font-size:1.1em; letter-spacing:1px;">Boyalı Profiller</h5>
+              <div style="height:4px; background:#ffc107; width:90%; margin:8px auto 0 auto; border-radius:2px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/resim4.jpg" class="card-img-top" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/npi.png" class="card-img-top" alt="Tokat Elif Profil NPI Demir">
+            <div class="card-body">
+              <h5 class="card-title text-warning text-center text-uppercase fw-bold mb-0" style="font-size:1.1em; letter-spacing:1px;">NPI Demir</h5>
+              <div style="height:4px; background:#ffc107; width:90%; margin:8px auto 0 auto; border-radius:2px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/npu.jpg" class="card-img-top" alt="Tokat Elif Profil NPU Demir">
+            <div class="card-body">
+              <h5 class="card-title text-warning text-center text-uppercase fw-bold mb-0" style="font-size:1.1em; letter-spacing:1px;">NPU Demir</h5>
+              <div style="height:4px; background:#ffc107; width:90%; margin:8px auto 0 auto; border-radius:2px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="/static/resim5.jpg" class="card-img-top" alt="Tokat Elif Profil Boyalı Profiller">
+            <div class="card-body">
+              <h5 class="card-title text-warning text-center text-uppercase fw-bold mb-0" style="font-size:1.1em; letter-spacing:1px;">Boyalı Profiller</h5>
+              <div style="height:4px; background:#ffc107; width:90%; margin:8px auto 0 auto; border-radius:2px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hakkimizda" class="bolum py-4">
+  <div class="container">
+    <h2 class="text-center text-warning fw-bold mb-4" style="font-size:2.2em;letter-spacing:1px;">Hakkımızda</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+        <img src="/static/hakkimizda_resim.jpg" alt="Elif Profil Dış Cephe" class="img-fluid rounded-4 shadow mb-3" style="max-width:420px;">
+        <div class="bg-white border-start border-4 border-warning rounded-3 shadow-sm p-3 mb-4 w-100" style="max-width:600px;overflow:hidden;">
+          <span class="fs-5 text-dark">
+            Elif Profil olarak Tokat/Turhal'da demir, sac, profil, Panel NPI, NPU Lama Köşebent ve çelik ürünlerinde toptan ve perakende satış yapıyoruz. Geniş stok, hızlı teslimat ve uygun fiyatlarla hizmetinizdeyiz.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="iletisim" class="bolum py-4">
+  <div class="container">
+    <div class="row justify-content-center g-4">
+      <!-- Sol kutu: Bilgiler -->
+      <div class="col-12 col-lg-5 bg-warning text-white rounded-4 shadow p-4 d-flex flex-column justify-content-center align-items-start">
+        <h2 class="fw-bold mb-4" style="font-size:2.2em;letter-spacing:1px;">Bize Ulaşın</h2>
+        <div class="d-flex align-items-center mb-3">
+          <a href="https://www.google.com/maps?q=Pazar+Mah.+Sanayi+Sitesi+11.+Sok.+No+5+Turhal+TOKAT" target="_blank" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle me-3" style="width:48px;height:48px;text-decoration:none;">
+            <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/map-pin.svg" alt="Ofis" style="width:28px;height:28px;filter:invert(50%) sepia(80%) saturate(500%) hue-rotate(10deg);">
+          </a>
+          <div>
+            <div class="fw-semibold">Ofisimiz</div>
+            <div>Pazar Mah. Sanayi Sitesi 11. Sok. No:5<br>Turhal / TOKAT</div>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mb-3">
+          <a href="tel:05338196000" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle me-3" style="width:48px;height:48px;text-decoration:none;">
+            <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/phone.svg" alt="Telefon" style="width:28px;height:28px;filter:invert(50%) sepia(80%) saturate(500%) hue-rotate(10deg);">
+          </a>
+          <div>
+            <div class="fw-semibold">Mustafa Kocaman</div>
+            <a href="tel:05338196000" class="text-white text-decoration-none">0 533 819 60 00</a>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mb-3">
+          <a href="tel:05340173285" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle me-3" style="width:48px;height:48px;text-decoration:none;">
+            <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/phone.svg" alt="Telefon" style="width:28px;height:28px;filter:invert(50%) sepia(80%) saturate(500%) hue-rotate(10deg);">
+          </a>
+          <div>
+            <div class="fw-semibold">İsmail Kocaman</div>
+            <a href="tel:05340173285" class="text-white text-decoration-none">0 534 017 32 85</a>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mb-0">
+          <a href="https://www.instagram.com/elifprofil_turhal/" target="_blank" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle me-3" style="width:48px;height:48px;text-decoration:none;">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" style="width:28px;height:28px;filter:invert(36%) sepia(99%) saturate(749%) hue-rotate(163deg) brightness(95%) contrast(92%);">
+          </a>
+          <div>
+            <div class="fw-semibold">Instagram</div>
+            <a href="https://www.instagram.com/elifprofil_turhal/" target="_blank" class="text-white text-decoration-none">@elifprofil_turhal</a>
+          </div>
+        </div>
+      </div>
+      <!-- Sağ kutu: Harita -->
+      <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center">
+        <iframe src="https://www.google.com/maps?q=Pazar+Mah.+Sanayi+Sitesi+11.+Sok.+No+5+Turhal+TOKAT&output=embed" width="100%" height="300" class="rounded-4 shadow border-0 w-100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %} 
